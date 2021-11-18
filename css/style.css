@@ -7,8 +7,8 @@
 .box {
     display: inline-block;
     background-color: antiquewhite;
-    padding: 10px;
-	margin: 70px;
+    padding: 30px;
+	margin: 50px;
     box-sizing: border-box;
     border: 2px;
 
