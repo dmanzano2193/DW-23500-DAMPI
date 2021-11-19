@@ -4,6 +4,19 @@
     padding: 0;
 }
 
+nav ul li{
+    display: inline;
+    position: sticky;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none ;
+    justify-content: space-evenly;
+    margin: 0 20px;
+}
+
+
 .box {
     display: inline-block;
     background-color: antiquewhite;
