@@ -12,8 +12,18 @@ nav ul li{
 
 ul li a {
     text-decoration: none ;
-    justify-content: space-evenly;
-    margin: 0 20px;
+    justify-content: space-between;
+    margin: 40px 20px;
+}
+
+.log {
+    margin: 10px;
+}
+
+.button{
+    text-align: left;
+    margin: 10px;
+    text-decoration: none;
 }
 
 
@@ -24,5 +34,35 @@ ul li a {
 	margin: 50px;
     box-sizing: border-box;
     border: 2px;
+    text-align: center;
+}
 
+.Título {
+    padding: 0px;
+    margin: 10px;
+    text-align: left;
+    color: white;
+    font-size: 4rem;
+}
+
+.Subtítulo .texto_cultura {
+    padding: 0px;
+    margin: 10px;
+    text-align: left;
+    color: white ;
+}
+
+
+.fondo {
+    background-color: #FDD0A9;
+    padding: 49px;
+    margin: 0px;
+    background-image: url("../src/multimedia/fotos/foto_portada.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:contain;
+}
+
+.foto_portada{
+    margin-bottom: 100px;
 }
