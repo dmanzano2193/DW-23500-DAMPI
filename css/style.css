@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ header .logo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 20px 60px;
+    text-decoration: none;
+    text-align: center;
+    border: 20px;
+}
+
+#menu ul li a:hover{
+    background-color: #FDD0A9;
+}
+
+
+/* nav ul li {
+    display: inline;
+    position: sticky;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 40px 20px;
+    text-align: center;
+    padding: 0%;
+    list-style: none;
+} */
+
+
+
+
+/* ul li a {
+    text-decoration: none ;
+    justify-content: space-between;
+    margin: 40px 20px;
+    text-align: center;
+} */
+
+.log {
+    margin: 10px;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+.button{
+    text-align: left;
+    margin: 10px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.search {
+    text-align: right;
+}
+
+
+.box {
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 30px;
+	margin: 50px;
+    box-sizing: border-box;
+    border: 2px;
+    text-align: center;
+}
+
+.Título {
+    padding: 0px;
+    margin: 10px;
+    text-align: left;
+    color: white;
+    font-size: 4rem;
+}
+
+.Subtítulo .texto_cultura {
+    padding: 0px;
+    margin: 10px;
+    text-align: left;
+    color: white ;
+}
+
+
+.fondo {
+    background-color: #FDD0A9;
+    padding: 49px;
+    margin: 0px;
+    background-image: url("../src/multimedia/fotos/foto_portada.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:contain;
+}
+
+.foto_portada{
+    margin-bottom: 100px;
+}
