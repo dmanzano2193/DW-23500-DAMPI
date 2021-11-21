@@ -140,9 +140,32 @@ span{
     align-items: center;
 }
 
-.buton_t{
- text-align: center;
- margin: 20px;
- font-size: 20px;
- font-family: sans-serif;
+
+
+
+.bor{
+  padding: 40px;
+  text-align: center;
+}
+
+.boton_per{
+    text-decoration: none;
+    margin: 90px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131111;
+    border-radius: 6px;
+    border: 2px solid #0b0b0c;
+    font-family: 'Roboto', sans-serif ;
+    align-content: center;
+  }
+
+  span{
+    color: #CA9D9C;
+  }
+
+.img_com img{
+  margin-top: 20px;
+  padding: 5px;
 }
