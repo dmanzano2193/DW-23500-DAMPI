@@ -63,12 +63,12 @@
 
 .box {
     display: inline-block;
-    background-color: antiquewhite;
-    padding: 30px;
-	margin: 40px;
+    padding: 3px;
+  	margin: 9px;
     box-sizing: border-box;
-    border: 2px;
+    border: 0px;
     text-align: center;
+
 }
 
 .Título {
@@ -91,7 +91,7 @@
 
 .fondo {
     background-color: #FDD0A9;
-    padding: 49px;
+    padding: 40px;
     margin: 0px;
     background-image: url("../src/multimedia/fotos/foto_portada.png");
     background-repeat: no-repeat;
@@ -107,11 +107,11 @@ figcaption{
   font-family: 'Roboto', sans-serif;
 }
 
-h2{
+.subti{
   text-align: center;
   font-family:  'Roboto', sans-serif;
   font-style: Bold 700;
-  margin: 0px;
+  margin-top: 40px;
 }
 
 span{
@@ -122,6 +122,7 @@ span{
     display: inline-block;
     padding: 20px;
     box-sizing: border-box;
+    justify-content: space-evenly;
     margin-left: 40px;
     margin-top: 40px;
     text-align: center;
