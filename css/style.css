@@ -161,10 +161,17 @@ span{
     align-content: center;
   }
 
+.boton_per:hover{
+    color: white;
+    background-color: #221818;
+  }
+
+
   span{
     color: #CA9D9C;
   }
 
+  
 .img_com img{
   margin-top: 20px;
   padding: 5px;
