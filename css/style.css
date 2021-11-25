@@ -174,5 +174,25 @@ span{
   
 .img_com img{
   margin-top: 20px;
-  padding: 5px;
+  padding: 10px;
+}
+
+.pm{
+  margin-top: 40px ;
+   font-family:  'Roboto', sans-serif; 
+   text-align: center;
+}
+
+.span_2{
+color: #CA9D9C;
+}
+
+.Container{
+  padding: 10px;
+  display: flex;
+  justify-content:space-evenly
+}
+
+.producto_{
+  padding:34px;
 }
