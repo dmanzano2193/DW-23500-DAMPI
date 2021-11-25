@@ -215,3 +215,43 @@ footer{
   padding: 10px;
   margin-top: 3px;
 }
+
+.redes_sociales{
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.container_3{
+  width: 1000px;
+  display: flex;
+  position: relative;
+  top: -120px;
+  justify-content: center;
+  margin-left: 8px;
+  color: white;
+}
+
+.sus{
+  display:inline;
+  margin-left: 420px;
+  color: white;
+  position: relative;
+  top: -140px;
+}
+/* 
+.dev {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  margin-left: 500px;
+} */
+
+.dev{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px;
+  color: white;
+ 
+}
