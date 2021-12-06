@@ -76,7 +76,7 @@ img{
 .listado-colecciones{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 2.5rem;
+  padding: 1.5rem;
   gap: 2.5rem;
 
 }
