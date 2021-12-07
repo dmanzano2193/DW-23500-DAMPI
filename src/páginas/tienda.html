@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/style.css">
   <title>Document</title>
 </head>
 
@@ -12,31 +13,40 @@
 
   <!-- Añado barra de menú -->
 
-  <header>
-    <a href="../../index.html">
-      <img src="../multimedia/fotos/logo.svg" alt="Logo_rosa" width="100" height="40px">
-    </a>
-    <nav>
-      <ul>
-        <li>
-          <a href="../../index.html">Inicio</a>
-        </li>
-        <li>
-          <a href="#">Tienda</a>
-        </li>
-        <li>
-          <a href="../páginas/nosotros.html">Nosotros</a>
-        </li>
-        <li>
-          <a href="../páginas/pago.html">Pago</a>
-        </li>
-        <li>
-          <a href="../páginas/contactanos.html">Contáctanos</a>
-        </li>
-      </ul>
-    </nav>
+ <header>
 
-    <img src="../multimedia/fotos/component 4.png" alt="portada_5" width="1340" height="370">
+  <nav class="menu">
+    <a href="../../index.html">
+      <img src="../multimedia/fotos/logo.svg" alt="Logo_rosa">
+    </a>
+    <ul class="menu_lista">
+      <li class="menu_item">
+        <a href="../../index.html">Inicio</a>
+      </li>
+      <li class="menu_item">
+        <a href="../páginas/tienda.html">Tienda</a>
+      </li>
+      <li class="menu_item">
+        <a href="../páginas/nosotros.html">Nosotros</a>
+      </li>
+      <li class="menu_item">
+        <a href="../páginas/pago.html">Pago</a>
+      </li>
+      <li class="menu_item">
+        <a href="./src/páginas/contactanos.html">Contáctanos<a>
+      </li>
+    </ul>
+    
+    <!-- Añado botón de búsqueda -->
+    <div class="search">
+      <input class="flexsearch--input" type="search" placeholder="search">
+    </div>
+  </nav>
+
+</header>
+  
+
+    <img src="../multimedia/fotos/component 4.png" alt="portada_5" width="1500" height="370">
 
     <div class="envío">
       <img src="../multimedia/fotos/15.png" alt="imagen" width="46" height="46">

@@ -22,7 +22,7 @@ img{
     padding: .2rem;
 }
 
-#menu{
+.menu{
   display: flex;
   justify-content: space-between;
   align-items: center;
