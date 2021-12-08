@@ -229,7 +229,7 @@ color: #CA9D9C;
 
 footer{
   background-color: black;
-  height: 15rem;
+  height: 16rem;
 }
 
 footer, h3, p{
@@ -273,4 +273,35 @@ footer, h3, p{
   padding: 1rem;
   justify-content: center;
   margin-right: 8rem;
+}
+
+.sus{
+  text-align: center;
+}
+
+ form{
+ margin-top: 1rem;
+ margin-left: 1rem;
+}
+
+.sub-menu{
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.grid-footer .menu1 a{
+  text-decoration: none;
+  color: #e1e1e1;
+}
+.grid-footer .menu1{
+  text-align: center;
+}
+
+.grid-footer .dis{
+  text-align: center;
+  margin-left: 6rem;
+}
+
+.typo{
+  margin-left: 4.3rem;
 }
