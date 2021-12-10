@@ -283,6 +283,7 @@ footer, h3, p{
 
 .sus{
   text-align: center;
+  align-items: center;
 }
 
  form{
@@ -293,6 +294,7 @@ footer, h3, p{
 .sub-menu{
   list-style: none;
   font-size: 1.4rem;
+  text-align: center;
 }
 
 .grid-footer .menu1 a{
@@ -305,9 +307,31 @@ footer, h3, p{
 
 .grid-footer .dis{
   text-align: center;
-  margin-left: 6rem;
+  margin-left: 6.3rem;
 }
 
 .typo{
   margin-left: 4.3rem;
+}
+
+.grid-footer .sus h3 p {
+  text-align: center;
+  margin-left: 6.3rem;
+}
+
+.grid-footer .foot h3{
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.grid-footer .redes_sociales{
+  margin-left: 2.5rem;
+}
+
+/* Tienda */
+
+.menu_tienda{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
