@@ -228,11 +228,12 @@ span{
   }
 }
 
-  
-.img_com img{
-  margin-top: 20px;
-  padding: 10px;
-}
+.img-fluid{
+margin-right: 5rem;
+padding: 1rem;
+background-size: cover;
+} 
+
 
 .pm{
   margin-top: 4rem ;
@@ -383,3 +384,4 @@ footer, h3, p{
   height: 20rem;
   width: 100;
 }
+
