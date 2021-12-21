@@ -79,10 +79,10 @@ z-index: 1;
 @media (min-width: 268px){
   .Título {
     padding: 0px;
-    margin: 10px;
+    margin-right: 2rem;
     text-align: left;
     color: white;
-    font-size: 7rem;
+    font-size: 6rem;
     font-family: 'Quando', serif;;
   }
 }
@@ -91,7 +91,7 @@ z-index: 1;
 
   .Subtítulo .texto_cultura {
     padding: 0px;
-    margin: 10px;
+    margin-right: 2rem;
     text-align: left;
     color: white ;
     font-family: 'Roboto', sans-serif;
