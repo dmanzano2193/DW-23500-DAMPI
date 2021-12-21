@@ -23,7 +23,32 @@ img{
     padding: .2rem;
 }
 
-@media(min-width: 768px){
+/* MENU */
+
+#navbar{
+height: 5rem;
+z-index: 1;
+}
+
+ 
+ #navbarSupportedContent li a{
+  color:gray;
+  font-size: 1.7rem;
+  padding: 2rem;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.navbar-toggler-icon .icon-bar{
+  color: #0b0b0c;
+}
+
+
+/* @media(min-width: 768px){
   .menu{
     display: flex;
     justify-content: space-between;
@@ -56,11 +81,11 @@ img{
 
 #menu ul li a:hover{
     background-color:#F0E6EF;
-}
+} */
 
 
 .log {
-    margin: 10px;
+    margin: 0px;
     float: left;
     position: relative;
     list-style: none;
@@ -174,7 +199,9 @@ span{
   font-size: 2.5rem;
 }
 
-.boton_per{
+
+@media (min-width: 372px){
+  .boton_per{
     text-decoration: none;
     margin: 90px;
     padding: 10px;
@@ -186,16 +213,20 @@ span{
     font-family: 'Roboto', sans-serif ;
     align-content: center;
   }
+}
 
-.boton_per:hover{
+@media (min-width: 372px){
+  .boton_per:hover{
     color: white;
     background-color: #221818;
   }
-
-
-  span{
+  
+}
+@media (min-width: 372px){
+ span{
     color: #CA9D9C;
   }
+}
 
   
 .img_com img{
@@ -334,4 +365,21 @@ footer, h3, p{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+/* Bootstrap */
+.row{
+  padding: 5rem;
+    gap: 6.4rem;
+    margin-left: 4rem;
+}
+
+.row p{
+  color: #0b0b0c;
+  font-size: 1.5rem;
+}
+
+.container .my-5{
+  height: 20rem;
+  width: 100;
 }
