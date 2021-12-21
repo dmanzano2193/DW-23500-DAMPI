@@ -48,42 +48,6 @@ z-index: 1;
 }
 
 
-/* @media(min-width: 768px){
-  .menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent;
-    padding: 10px;
-  }
-}
-
-@media(min-width: 768px){
-.menu_lista{
-  display: flex;
-  justify-content: space-evenly;
-  width: 50%;
-  list-style: none;
-}
-}
-
- .menu_item a{
-  text-decoration: none;
-   color:darkgrey;
-   font-size: 2rem;
-} 
-
-#menu img {
-  width: 60px;
-  height: 40px;
-}
-
-
-#menu ul li a:hover{
-    background-color:#F0E6EF;
-} */
-
-
 .log {
     margin: 0px;
     float: left;
@@ -112,23 +76,31 @@ z-index: 1;
 }
 
 
-.Título {
+@media (min-width: 268px){
+  .Título {
     padding: 0px;
     margin: 10px;
     text-align: left;
     color: white;
     font-size: 7rem;
     font-family: 'Quando', serif;;
+  }
 }
 
-.Subtítulo .texto_cultura {
+@media (min-width: 268px){
+
+  .Subtítulo .texto_cultura {
     padding: 0px;
     margin: 10px;
     text-align: left;
     color: white ;
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
+  }
 }
+
+
+
 
 @media (min-width: 268px){
   .fondo {
@@ -232,7 +204,8 @@ span{
 margin-right: 5rem;
 padding: 1rem;
 background-size: cover;
-} 
+}
+
 
 
 .pm{
@@ -265,108 +238,137 @@ color: #CA9D9C;
 
 /* Footer */
 
-footer{
-  background-color: black;
-  height: 16rem;
-}
-
-footer, h3, p{
-  color: #ffff;
-}
+  footer{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+  }
 
 
-.site-footer h3 {
-  margin-bottom: .5rem;
-  text-align: center;
-}
 
-.grid-footer > div {
-  margin-bottom: 4rem;
-}
-@media (min-width: 768px) { 
+  footer, h3, p{
+    color: #ffff;
+  } 
+
+
+
+ .site-footer h3 {
+    margin-bottom: .5rem;
+    text-align: center;
+  }
+
+
+  .grid-footer > div {
+    margin-bottom: 4rem;
+  }
+
+
   .grid-footer > div {
       margin: 0;
   }
-}
+
+
+
 
   .grid-footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10rem;
     padding: 2rem;
-}
-
-.grid-footer h3{
-  font-size: 2.5rem;
-  margin-right: 6rem;
-}
-
-.grid-footer p{
-  font-size: 1.5rem;
-}
+  }
 
 
-.grid-footer .redes_sociales{
-  display: flex;
-  padding: 1rem;
-  justify-content: center;
-  margin-right: 8rem;
-}
 
-.sus{
-  text-align: center;
-  align-items: center;
-}
+  .grid-footer h3{
+    font-size: 2.5rem;
+    margin-right: 6rem;
+  }
 
- form{
- margin-top: 1rem;
- margin-left: 1rem;
-}
 
-.sub-menu{
-  list-style: none;
-  font-size: 1.4rem;
-  text-align: center;
-}
 
-.grid-footer .menu1 a{
-  text-decoration: none;
-  color: #e1e1e1;
-}
-.grid-footer .menu1{
-  text-align: center;
-}
 
-.grid-footer .dis{
-  text-align: center;
-  margin-left: 6.3rem;
-}
+  .grid-footer p{
+    font-size: 1.5rem;
+  }
 
-.typo{
-  margin-left: 4.3rem;
-}
 
-.grid-footer .sus h3 p {
-  text-align: center;
-  margin-left: 6.3rem;
-}
 
-.grid-footer .foot h3{
-  margin-left: 2rem;
-  text-align: center;
-}
 
-.grid-footer .redes_sociales{
-  margin-left: 2.5rem;
-}
+  .grid-footer .redes_sociales{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    margin-right: 8rem;
+  }
 
-/* Tienda */
 
-.menu_tienda{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
+
+
+  .sus{
+    text-align: center;
+    align-items: center;
+  }
+
+
+
+
+  form{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+
+
+
+  .sub-menu{
+    list-style: none;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+
+  .grid-footer .menu1 a{
+    text-decoration: none;
+    color: #e1e1e1;
+  }
+
+
+
+
+  .grid-footer .menu1{
+    text-align: center;
+  }
+
+
+
+  .grid-footer .dis{
+    text-align: center;
+    margin-left: 6.3rem;
+  }
+
+
+  .typo{
+    margin-left: 4.3rem;
+  }
+
+
+  .grid-footer .sus h3 p {
+    text-align: center;
+    margin-left: 6.3rem;
+  }
+
+  .grid-footer .foot h3{
+    margin-left: 2rem;
+    text-align: center;
+  }
+
+
+
+
+  .grid-footer .redes_sociales{
+    margin-left: 2.5rem;
+  }
+
+
 
 /* Bootstrap */
 .row{
@@ -384,4 +386,14 @@ footer, h3, p{
   height: 20rem;
   width: 100;
 }
+
+/* Tienda */
+
+.menu_tienda{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
 

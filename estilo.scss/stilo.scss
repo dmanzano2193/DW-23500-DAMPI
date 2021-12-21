@@ -1,0 +1,18 @@
+/* Animación */
+
+.texto_cultura{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    animation: texto_cultura $speed infinite ease-in-out;
+    
+    @for $i from 0 to $texto_cultura{
+        &:nth-child(#{$i +1}) {
+            animation-delay: ($speed / ($texto_cultura +1) *$i) - $speed;
+        }
+    }
+    @keyframes texto_cultura{
+        0%, 5%, 100% {filter: blur(0px);opacity: 1;}
+        20%, 80%{filter: blur(1em); opacity: 0;}
+    }
+  }
