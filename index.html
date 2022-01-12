@@ -7,25 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./css/normalize.css">
-  <!-- Agrego CSSS -->
-  <link rel="stylesheet" href="./css/style.css">
-
-  <!-- Agrego Bootstrap -->
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Añado JS -->
-
-  <link rel="stylesheet" href="./js/bootstrap.min.js" crossorigin="anonymous">
-  <link rel="stylesheet" href="./js/popper.min.js" crossorigin="anonymous">
-
+ 
   <!-- Agrego  Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quando&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
 
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="estilo.scss/stilo.scss">
+    
+    
+  
+
+    <!-- Añado -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
   <title>Palo Rosa</title>
 
@@ -35,46 +34,23 @@
 
 
   <!-- Añado barra de menú -->
-
-      <!-- </div> --> 
-
-      <nav class="navbar navbar-expand-sm navbar-dark" id="navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./src/multimedia/fotos/logo.svg" alt="" width="65">
-            </a>
-            
-            <button class="navbar-toggler" type="button" 
-            data-toggle="collapse" 
-            data-target="#navbarSupportedContent" 
-            aria-controls="navbarSupportedContent" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation"
-            style="background: #FDD0A9;">
-            <span class="navbar-toggler-icon" style="color: black;"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav navbar-center">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./src/páginas/tienda.html">Tienda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./src/páginas/nosotros.html">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./src/páginas/pago.html">Pago</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./src/páginas/contactanos.html">Contáctanos</a></li>
-                </ul>  
-            </div>
-           <!-- Añado botón de búsqueda -->
-      <div class="search">
-        <input class="flexsearch--input" type="search" placeholder="search">
-      </div>
-        </div>
-    </nav>
-
-
-
-    </nav>
-
-  </header> 
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <a href="#" class="enlace">
+        <img src="./src/multimedia/fotos/logo.svg" alt="" class="logo">
+    </a>
+    <ul>
+        <li><a class="active" href="./index.html">Inicio</a></li>
+        <li><a href="./src/páginas/tienda.html">Tienda</a></li>
+        <li><a href="./src/páginas/nosotros.html">Nosotros</a></li>
+        <li><a href="./src/páginas/pago.html">Pago</a></li>
+        <li><a href="./src/páginas/contactanos.html">Contactáctanos</a></li>
+     
+    </ul>   
+</nav>
 
   <!-- Añado títulosy subtítulos -->
 
@@ -102,28 +78,34 @@
 
   </div>
 
-  <section class="Colecciones">
-    <div class="listado-colecciones">
-      <div class="box">
-        <img src="./src/multimedia/fotos/Component 14.png" alt="GUATAJIAGUA">
-      </div>
+  <div>
 
-      <div class="box">
-        <img src="./src/multimedia/fotos/Component 15.png" alt="LUNA">
+    <section class="Colecciones">
+      <div class="listado-colecciones">
+        <div class="box">
+          <img src="./src/multimedia/fotos/Component 14.png" alt="GUATAJIAGUA">
+        </div>
+        
+        <div class="box">
+          <img src="./src/multimedia/fotos/Component 15.png" alt="LUNA">
+        </div>
+        
+        <div class="box">
+          <img src="./src/multimedia/fotos/Component 16.png" alt="PRIMAVERA">
+        </div>
       </div>
+    </section>
 
-      <div class="box">
-        <img src="./src/multimedia/fotos/Component 16.png" alt="PRIMAVERA">
-      </div>
-    </div>
-  </section>
+  </div>
 
   <main>
 
-    <section class="más_vendidos">
+    <div>
 
-      <h2 class="subti">MÁS <span>VENDIDOS</span></h2>
-
+      <section class="más_vendidos">
+        
+        <h2 class="más_vendidos_subti">MÁS <span>VENDIDOS</span></h2>
+        
       <div class="seccion_1">
         <div class="figura">
           <img src="./src/multimedia/fotos/component5.png" alt="Florero decorativo" width="246" height="229px">
@@ -142,9 +124,9 @@
           <figcaption>Depósito de frutas $6</figcaption>
         </div>
       </div>
-
+      
       <div class="seccion_2">
-
+        
         <div class="figura_2">
           <img src="./src/multimedia/fotos/Component12.png" alt="Maceta" height="229px" width="246px">
           <figcaption>Maceta decorativa $7</figcaption>
@@ -160,11 +142,12 @@
         <div class="figura_2">
           <img src="./src/multimedia/fotos/Component15.png" alt="Depósito" height="229px" width="246px">
           <figcaption>Depósito de bebida $15</figcaption>
-
+          
         </div>
-
+        
       </div>
-
+    </div>
+      
     </section>
 
 

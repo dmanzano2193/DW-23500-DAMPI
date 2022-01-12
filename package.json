@@ -1,0 +1,22 @@
+{
+  "name": "palo_rosa_d---copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmanzano2193/DW-23500-Dampi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmanzano2193/DW-23500-Dampi/issues"
+  },
+  "homepage": "https://github.com/dmanzano2193/DW-23500-Dampi#readme",
+  "devDependencies": {
+    "sass": "^1.47.0"
+  }
+}
